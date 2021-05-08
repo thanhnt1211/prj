@@ -1,0 +1,93 @@
+.bg-black {
+    background-color: #000;
+}
+
+.text-white {
+    color: #FFF;
+}
+
+.header {
+    background: #000;
+    width: 90%;
+    padding: 3px 0;
+    transition: 0.6s;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-left{
+  width: 50%;
+}
+
+.w-right{
+  width: 50%;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.navbar-right{
+
+}
+
+.profile{
+  cursor: pointer;
+}
+
+.profile span{
+  margin: 0 8px;
+}
+
+.profile img{
+  width: 25px;
+}
+
+.profile img:nth-child(3){
+  width: 15px;
+}
+
+.logo img {
+    position: relative;
+    font-weight: 700;
+    color: #FFF;
+    width: 3rem;
+    height: auto;
+    letter-spacing: 2px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #FFF;
+    letter-spacing: 1px;
+    transition: 0.6s;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.dropdown-menu{
+  width: 120px !important;
+  left: 780px;
+  top: 60px;
+  transition: 0.5s;
+}
+
+.dropdown-menu li a{
+  color: #cdcdcd;
+}
+
+.dropdown-menu li a:hover{
+  color: #000;
+  font-weight: 700;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .hidden {
+        display: none;
+    }
+
+
+}
